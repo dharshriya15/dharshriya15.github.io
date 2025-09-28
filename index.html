@@ -437,110 +437,51 @@
             </ul>
         </div>
     </nav>
-    <nav id="hamburger-nav">
-      <div class="logo">Priyadharshini</div>
-      <div class="hamburger-menu">
-        <div class="hamburger-icon" onclick="toggleMenu()">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-        <div class="menu-links">
-          <li><a href="#about" onclick="toggleMenu()">About</a></li>
-          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
-        </div>
-      </div>
-    </nav>
 
-    <section id="profile">
-      <div class="section__pic-container">
-        <img src="./assets/coding.avif" alt="hari profile picture" />
-      </div>
-      <div class="section__text">
-        <p class="section__text__p1">Hello, I'm</p>
-        <h1 class="title">Priyadharshini</h1>
-        <p class="section__text__p2">Python Developer</p>
-        <div class="btn-container">
-          <button
-            class="btn btn-color-2"
-            onclick="window.open('./assets/Priyadharshini-resume.pdf')"
-          >
-            Download CV
-          </button> 
-        </div> 
-      </div>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Python AI Developer</h1>
+            <p class="subtitle">Large Language Models • Automation • Cloud Deployment</p>
+            <p class="description">
+                Specializing in building intelligent applications with LLMs, automation systems, and scalable AI solutions. 
+                Expertise in Python, cloud deployments, and creating seamless user experiences.
+            </p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn btn-primary">
+                    <i class="fas fa-code"></i> View Projects
+                </a>
+                <a href="#contact" class="btn btn-secondary">
+                    <i class="fas fa-envelope"></i> Get In Touch
+                </a>
+            </div>
+        </div>
     </section>
 
     <!-- About Section -->
     <section id="about">
-      <p class="section__text__p1">Get To Know More</p>
-      <h1 class="title">About Me</h1>
-      <div class="section-container">
-        <div class="section__pic-container">
-           <img
-            src="./assets/about-pic.png"
-            alt="Profile picture"
-            class="about-pic"
-          />
-        </div>
-        <div class="about-details-container">
-          <div class="about-containers">
-            <div class="text-container">
-              <p>
-                Hi, I'm Priyadharshini, Python developer with over 3+ years of experience. Currently, I work as a full-stack developer in Rayi Systems. I am developing AI-driven solutions, including an SOQ Automator using LLMs deployed on AWS and an AI Companion App for interactive conversations. 
-            </p> 
-            <p>
-                Previously, as a Python Developer at Tenthplanet Technologies, I designed and implemented RESTful APIs, optimized SQL queries, and contributed to Agile development processes, ensuring seamless backend-to-frontend communication. 
-              </p>   
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>I'm a passionate Python AI Developer with expertise in large language models, automation, and backend development. With a strong background in AI and cloud-based deployments, I specialize in building intelligent applications that enhance automation and user experience.</p>
+                <p>My experience spans across developing AI-driven solutions, chatbots, voicebots, and complex retail management systems. I thrive on solving complex challenges and delivering scalable, efficient solutions.</p>
             </div>
-            <div class="details-container">
-              <img
-                src="./assets/exp.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <h3>Experience</h3>
-              <p>Python AI Developer</br> with over 3+ years of experience </p>
-              <br/> 
-            </div>
-            <div class="details-container">
-              <img
-                src="./assets/edu.png"
-                alt="Education icon"
-                class="icon"
-              />
-              <h3>Education</h3>
-              <p>Msc Computer Science</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='#experience'"
-      />
-    </section>
-    <section id="experience">
-      <p class="section__text__p1">Explore My</p>
-      <h1 class="title">Experience</h1>
-      <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container">
-            <h2 class="experience-sub-title">Code In</h2>
-            <div class="article-container">
-              <article>
-                <img
-                  src="./assets/python.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Python</h3>
-                  <p>Experienced</p>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <i class="fab fa-python"></i>
+                    <div>Python</div>
+                </div>
+                <div class="skill-item">
+                    <i class="fa-brands fa-react"></i>
+                    <div>React JS</div>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-brain"></i>
+                    <div>LLMs</div>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-robot"></i>
+                    <div>AI/ML</div>
                 </div>
                 <div class="skill-item">
                     <i class="fab fa-aws"></i>
@@ -616,27 +557,27 @@
                     <span class="tech-tag">Python</span>
                     <span class="tech-tag">Automation</span>
                 </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/odoo_logo.svg"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Odoo</h3>
-                  <p>Experienced</p>
+            </div>
+
+            <div class="project-card">
+                <h3>AI Companion App</h3>
+                <p>Interactive conversational AI application with advanced natural language processing capabilities for engaging user interactions and personalized responses.</p>
+                <div class="tech-tags">
+                    <span class="tech-tag">LLMs</span>
+                    <span class="tech-tag">NLP</span>
+                    <span class="tech-tag">Conversational AI</span>
+                    <span class="tech-tag">Python</span>
                 </div>
-              </article>  
-              <article>
-                <img
-                  src="./assets/langchain.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>LangChain</h3>
-                  <p>Experienced</p>
+            </div>
+
+            <div class="project-card">
+                <h3>LiDAR Volume Estimation</h3>
+                <p>Truck volume estimation system using Shoelace Algorithm with LiDAR point cloud data from SICK LMS511 sensors for precise spatial measurements.</p>
+                <div class="tech-tags">
+                    <span class="tech-tag">LiDAR</span>
+                    <span class="tech-tag">Point Cloud</span>
+                    <span class="tech-tag">Computer Vision</span>
+                    <span class="tech-tag">Algorithms</span>
                 </div>
             </div>
 
@@ -660,130 +601,41 @@
                     <span class="tech-tag">NLTK</span>
                     <span class="tech-tag">spaCy</span>
                 </div>
-              </article>  
             </div>
-            <br></br>
-              <h2 class="experience-sub-title">DevOps</h2>
-              <div class="article-container">
-                <article>
-                  <img
-                    src="./assets/github.png"
-                    alt="Experience icon"
-                    class="icon"
-                  />
-                  <div>
-                    <h3>Github</h3>
-                    <p>Experienced</p>
-                  </div>
-                </article> 
-                <article>
-                  <img
-                    src="./assets/aws.png"
-                    alt="Experience icon"
-                    class="icon"
-                  />
-                  <div>
-                    <h3>AWS</h3>
-                    <p>Experienced</p>
-                  </div>
-                </article>
-                <article>
-                  <img
-                    src="./assets/ubuntu.png"
-                    alt="Experience icon"
-                    class="icon"
-                  />
-                  <div>
-                    <h3>Ubuntu</h3>
-                    <p>Experienced</p>
-                  </div>
-                </article>
-                <article>
-                  <img
-                    src="./assets/vscode.jpeg"
-                    alt="Experience icon"
-                    class="icon"
-                  />
-                  <div>
-                    <h3>VS Code</h3>
-                    <p>Experienced</p>
-                  </div>
-                </article>
-                <article>
-                  <img
-                    src="./assets/hugging-face.svg"
-                    alt="Experience icon"
-                    class="icon"
-                  />
-                  <div>
-                    <h3>Hugging Face</h3>
-                    <p>Experienced</p>
-                  </div>
-                </article>
-              </div>
+
+            <div class="project-card">
+                <h3>Vector Search & RAG</h3>
+                <p>Implementing efficient vector search solutions using FAISS and Pinecone with RAG (Retrieval-Augmented Generation) for enhanced AI applications.</p>
+                <div class="tech-tags">
+                    <span class="tech-tag">FAISS</span>
+                    <span class="tech-tag">Pinecone</span>
+                    <span class="tech-tag">RAG</span>
+                    <span class="tech-tag">Vector DB</span>
+                </div>
             </div>
-          </div>
         </div>
-      </div> 
-      </section>
-      <section id="projects">
-        <p class="section__text__p1">Browse My Recent</p>
-        <h1 class="title">Projects</h1>
-        <div class="experience-details-container">
-          <div class="about-containers">
-            <div class="details-container color-container"> 
-              <h2 class="experience-sub-title project-title">AI & LLM Development</h2>
-                <p> ✅ <b>SOQ Automator:</b></p> 
-                <p>Implemented and deployed an SOQ Automator using LLM on AWS for automating structured
-                  document generation. </p>
-                  <br>
-                <p> ✅ <b> AI Companion App:</b></p> 
-                <p>Developed an AI Companion App using Large Language Models (LLMs) to provide interactive
-                  conversational experiences.</p> 
-              </div>
-            <div class="details-container color-container"> 
-              <h2 class="experience-sub-title project-title"> Odoo Development</h2>
-                <p> ✅ <b>Custom Odoo Module:</b></p> <p>
-                  A custom module integrating AI for automation</p>
-                  <br>
-                <p> ✅ <b>Odoo REST API Integration:</b></p> 
-                <p>API-based data sync between Odoo and external platforms</p>
-                <br>
-                <p> ✅ <b> Odoo UI Customization:</b></p> 
-                <p>Advanced dashboards with OWL and QWeb</p>
-              </div>
-            </div> 
-          </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Get In Touch</h2>
+        <div class="contact-content">
+            <p>I'm always interested in new opportunities and collaborations in AI, automation, and innovative software development. Let's connect and discuss how we can work together!</p>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>dharshriya15@gmail.com</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-linkedin"></i>
+                    <a href="https://www.linkedin.com/in/priya-dharshini-a8bbb4356" target="_blank">LinkedIn Profile</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-github"></i>
+                    <a href="https://github.com/dharshriya15" target="_blank">GitHub Profile</a>
+                </div>
+            </div>
         </div>
-        <img
-          src="./assets/arrow.png"
-          alt="Arrow icon"
-          class="icon arrow"
-          onclick="location.href='#contact'"
-        />
-      </section>
-   <section id="contact">
-      <p class="section__text__p1">Get in Touch</p>
-      <h1 class="title">Contact Me</h1>
-      <div class="contact-info-upper-container">
-        <div class="contact-info-container">
-          <img
-            src="./assets/mail.png"
-            alt="Email icon"
-            class="icon contact-icon email-icon"
-          />
-          <p><a href="mailto:dharshriya15@gmail.com">dharshriya15@gmail.com</a></p>
-        </div>
-        <div class="contact-info-container">
-          <img
-            src="./assets/linkedin-color.png"
-            alt="LinkedIn icon"
-            class="icon contact-icon"
-          />
-          <p><a href="https://www.linkedin.com/in/priya-dharshini-a8bbb4356">LinkedIn</a></p>
-        </div>
-      </div>
-      </div>
     </section>
 
     <!-- Footer -->
